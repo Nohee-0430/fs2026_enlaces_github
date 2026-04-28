@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad jQuery - Inicio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-jquery" data-bs-offset="20" tabindex="0">
+
+    <header>
+        <h1 class="text-center h1-bg p-4 mb-5">ADHD 02 (Parte 1) - jQuery</h1>
+    </header>
+
+    <main class="container-fluid px-lg-5">
+        <div class="row">
+            <div class="col-md-3">
+                <nav id="navbar-jquery"
+                    class="navbar navbar-light bg-white flex-column align-items-stretch p-3 shadow-sm rounded sticky-top"
+                    style="top: 20px;">
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link mb-2 py-3" href="#item-1">
+                            <span class="fw-bold">Página 1</span><br>
+                            <small class="text-muted">Efectos en Párrafos</small>
+                        </a>
+                        <a class="nav-link mb-2 py-3" href="#item-2">
+                            <span class="fw-bold">Página 2</span><br>
+                            <small class="text-muted">Agregar y Eliminar filas</small>
+                        </a>
+                        <a class="nav-link mb-2 py-3" href="#item-3">
+                            <span class="fw-bold">Página 3</span><br>
+                            <small class="text-muted">Promedio de Notas</small>
+                        </a>
+                    </nav>
+                </nav>
+            </div>
+            <div class="col-md-9">
+                <div class="scrollspy-example">
+                    <section id="item-1"
+                        class="p-5 mb-5 rounded shadow-sm bg-white border-start border-5 border-primary"
+                        style="border-left-color: var(--pink-primary) !important;">
+                        <h2 class="fw-bold mb-4">Página 1: Efectos en Párrafos</h2>
+                        <p class="lead">
+                        <ul>
+                            <li>Ocultar párrafos: al dar clic se ocultarán todos los párrafos</li>
+                            <li>Mostrar párrafos: al dar clic se mostrarán todos los párrafos</li>
+                            <li>Ocultar despacio: al dar clic se ocultarán los párrafos agregar el efecto slow</li>
+                            <li>Mostrar despacio: al dar clic se mostrarán los párrafos utilizando el efecto fast</li>
+                            <li>Ocultar forma slide: al dar clic en el botón se ocultarán los párrafos utilizando el
+                                efecto
+                                sildeUp en un tiempo de 2 segundos</li>
+                            <li>Mostrar forma slide: al dar clic en el botón se mostrarán los párrafos utilizando el
+                                efecto
+                                sildeDown en un tiempo de 2 segundos</li>
+                        </ul>
+                        </p>
+                        <div class="mt-4">
+                            <a href="pagina1.html" class="btn btn-custom px-5">Mostrar Solución</a>
+                        </div>
+                    </section>
+                    <section id="item-2"
+                        class="p-5 mb-5 rounded shadow-sm bg-white border-start border-5 border-success"
+                        style="border-left-color: #28a745 !important;">
+                        <h2 class="fw-bold mb-4">Página 2: Agregar y Eliminar Filas</h2>
+                        <p class="lead">
+                        <ul>
+                            <li>Agregar fila: al dar clic se agregará una fila a la tabla</li>
+                            <li>Eliminar fila: al dar clic se eliminará la última fila de la tabla</li>
+                        </ul>
+                        </p>
+                        <div class="mt-4">
+                            <a href="pagina2.html" class="btn btn-success px-5 rounded-pill fw-bold">Mostrar
+                                Solución</a>
+                        </div>
+                    </section>
+                    <section id="item-3" class="p-5 mb-5 rounded shadow-sm bg-white border-start border-5 border-info"
+                        style="border-left-color: #17a2b8 !important;">
+                        <h2 class="fw-bold mb-4">Página 3: Calcular Promedio de Notas</h2>
+                        <p class="lead">
+                        <ul>
+                            <li>Largo del texto: indicará cuantos caracteres posee el nombre.</li>
+                            <li>Promedio: mostrará el promedio de las notas ingresadas e indicará si fue aprobado o
+                                reprobado, se aprueba con 70 puntos o más.</li>
+                        </ul>
+                        </p>
+                        <div class="mt-4">
+                            <a href="pagina3.html" class="btn btn-info px-5 text-white rounded-pill fw-bold">Mostrar
+                                Solución</a>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-0">jQuery Activity &copy; 2024</p>
+    </footer>
+
+    <script src="js/jquery-4.0.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
