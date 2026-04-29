@@ -2,7 +2,7 @@
 ## Descripción del proyecto
 > Creación de repositorio
 - index.html: Se utilizaron cards (BootStrap) para dar un diseño a todos los repositorios creados con sus respectivos enlaces.
-![](imagenes/intecap.png)
+![foto](imagenes/intecap.png)
 ## Tecnologías utilizadas
 
 | Tecnología | Descripción |
